@@ -1,0 +1,24 @@
+{
+  "name": "angular-sock",
+  "version": "0.0.0",
+  "authors": [
+    "Larry Eliemenye <denachural@gmail.com>"
+  ],
+  "description": "Yet Another Angular wrapper for the HTML5 Websocket API",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "Websocket",
+    "AngularJS",
+    "Angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

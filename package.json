@@ -1,0 +1,25 @@
+{
+  "name": "angular-sock",
+  "version": "1.0.0",
+  "description": "Yet Another Angular wrapper for the HTML5 Websocket API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigmeech/angular-sock.git"
+  },
+  "author": "Larry Eliemenye <larry.eliemenye@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigmeech/angular-sock/issues"
+  },
+  "homepage": "https://github.com/bigmeech/angular-sock#readme",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}

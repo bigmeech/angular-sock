@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="demoApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Angular-Sock</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular.js"></script>
+    <script src="../src/angular-sock.js"></script>
+    <script src="../demo/app.js"></script>
+</head>
+<body>
+
+<div ng-controller="DemoController">
+    {{result|json}}
+    <input ng-model="messageText" type="text" placeholder="Insert a Message to send from this scope"/>
+    <button ng-click="sendMessage()">
+        Send Message
+    </button>
+</div>
+</body>
+</html>
